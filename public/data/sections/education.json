@@ -146,6 +146,37 @@
           },
           {
             "icon": {
+              "img": "images/pictures/edu/12.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "12/12/2023",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "C# Programming Certification",
+                "info": "Bilgi Teknolojileri ve İletişim Kurumu",
+                "text": "Successfully completed the C# Programming online course, covering fundamental concepts, object-oriented programming, and best practices for software development.",
+                "tags": ["C#", "OOP", "Software Development", "Programming"]
+              },
+              "ar": {
+                "title": "شهادة برمجة C#",
+                "info": "هيئة تكنولوجيا المعلومات والاتصالات",
+                "text": "أكملت بنجاح دورة برمجة C# عبر الإنترنت، حيث تم تغطية المفاهيم الأساسية، البرمجة الكائنية التوجه، وأفضل الممارسات في تطوير البرمجيات.",
+                "tags": ["C#", "البرمجة الكائنية", "تطوير البرمجيات", "البرمجة"]
+              },
+              "tr": {
+                "title": "C# Programlama Sertifikası",
+                "info": "Bilgi Teknolojileri ve İletişim Kurumu",
+                "text": "C# programlama dili üzerine çevrim içi kursu başarıyla tamamladım. Temel kavramlar, nesne yönelimli programlama ve yazılım geliştirme en iyi uygulamaları üzerine detaylı bilgi edindim.",
+                "tags": ["C#", "Nesne Yönelimli Programlama", "Yazılım Geliştirme", "Programlama"]
+              }
+            }
+          },          
+          {
+            "icon": {
               "img": "images/pictures/edu/9.png",
               "fa": "",
               "faColors": { "bg": null, "fill": null }

@@ -4,8 +4,8 @@
     "fullScreenButtonEnabled": true,
 
     "preloader": {
-        "enabled": false,
-        "title": "Musa ALAHMED <b>Portfolio</b>"
+        "enabled": true,
+        "title": "Musa AL AHMED "
     },
 
     "profile": {
@@ -67,8 +67,8 @@
     ],
 
     "emailjs": {
-        "publicKey": "tzObcsmOwHvPy6Rhp",
-        "serviceId": "service_4h8g7vb",
-        "templateId": "template_seyjkzn"
+        "publicKey": "utjVNiyb7SWVVWvnb",
+        "serviceId": "service_q3nlq9b",
+        "templateId": "template_xw7hdzv"
     }
 }

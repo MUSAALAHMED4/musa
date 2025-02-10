@@ -203,18 +203,24 @@
         "items": [
           {
             "dates": {
-              "start": "09/01/2019",
+              "start": "10/02/2025",
               "end": null
             },
             "links": [],
             "locales": {
               "en": {
-                "title": "**Best Final Year Project** – Backend Optimization",
-                "info": "MIT",
-                "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                "title": "Command-line Mastery",
+                "info": "Satr Platform",
+                "text": "Successfully completed a series of courses on the Satr platform, covering fundamental and advanced Command-line concepts including commands, input/output redirection, Shell expansion, shortcuts, and advanced file search techniques."
+              },
+              "ar": {
+                "title": "إتقان سطر الأوامر",
+                "info": "منصة سطر",
+                "text": "أكملت بنجاح سلسلة دورات على منصة سطر، تغطي مفاهيم سطر الأوامر من الأساسيات إلى المستويات المتقدمة، بما في ذلك الأوامر الأساسية، إعادة توجيه المدخلات والمخرجات، توسع Shell، الاختصارات، وتقنيات البحث المتقدمة في الملفات."
               }
             }
           }
+          
         ]
       }
     ]

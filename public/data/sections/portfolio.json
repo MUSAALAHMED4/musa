@@ -1,479 +1,509 @@
 {
     "locales": {
-        "en": {
-            "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
-        },
-
-        "es": {
-            "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
-        },
-
-        "fr": {
-            "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
-        },
-
-        "ko": {
-            "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
-        }
+      "en": {
+        "title": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My **Portfolio**"
+      },
+  
+      "ar": {
+        "title": "معرض اعمال",
+        "title_long_prefix": "انظر إلى",
+        "title_long": "محفظتي **الشخصية**"
+      },
+      "tr": {
+        "title": "",
+        "title_long_prefix": "Bak",
+        "title_long": "Benim ** Portföy **"
+      }
     },
-
+  
     "articles": [
-        {
-            "id": "portfolio",
-            "component": "ArticlePortfolio",
-            "config": {},
-            "locales": {},
-
-            "categories": [
-                {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
-                {
-                    "id": "websites",
-                    "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
-                    }
-                },
-                {
-                    "id": "utilities",
-                    "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
-                    }
-                }
+      {
+        "id": "portfolio",
+        "component": "ArticlePortfolio",
+        "config": {},
+        "locales": {},
+  
+        "categories": [
+          {
+            "id": "websites",
+            "locales": {
+              "en": { "singular": "Website", "plural": "Web" },
+              "ar": { "singular": "موقع", "plural": "الويب" },
+              "tr": { "singular": "Web sitesi", "plural": "Web" }
+            }
+          },
+          {
+            "id": "utilities",
+            "locales": {
+              "en": { "singular": "Utility", "plural": "Utilities" },
+              "ar": { "singular": "أداة", "plural": "الأدوات" },
+              "tr": { "singular": "Araç", "plural": "Araçlar" }
+            }
+          },
+          {
+            "id": "other",
+            "locales": {
+              "en": { "singular": "Other", "plural": "Other" },
+              "ar": { "singular": "أخرى", "plural": "أخرى" },
+              "tr": { "singular": "Diğer", "plural": "Diğer" }
+            }
+          }
+        ],
+  
+        "items": [
+          {
+            "categoryId": "websites",
+            "icon": {
+              "img": "images/screenshot/HorizonAcademy/Logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-solid fa-globe",
+                "href": "https://musaalahmed1.github.io/HorizonAcademy/"
+              },
+              {
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/musaalahmed1/HorizonAcademy"
+              }
             ],
-
-            "items": [
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
-                }
-            ]
-        }
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/HorizonAcademy/1.png",
+                  "images/screenshot/HorizonAcademy/2.png",
+                  "images/screenshot/HorizonAcademy/3.png",
+                  "images/screenshot/HorizonAcademy/4.png",
+                  "images/screenshot/HorizonAcademy/5.png"
+                ]
+              }
+            },
+  
+            "locales": {
+              "en": {
+                "title": "Horizon Academy",
+                "text": "A modern and interactive educational platform built with <b>JavaScript</b>, <b>Tailwind CSS</b>, and <b>Django</b>. It provides <b>school management</b>, <b>student learning tools</b>, and <b>teacher resources</b>.",
+                "tags": [
+                  "Education",
+                  "School Management",
+                  "E-learning",
+                  "JavaScript",
+                  "Tailwind CSS",
+                  "Django"
+                ]
+              },
+              "ar": {
+                "title": "أكاديمية هورايزون",
+                "text": "منصة تعليمية حديثة وتفاعلية مبنية باستخدام <b>JavaScript</b>، <b>Tailwind CSS</b> و<b>Django</b>. توفر <b>إدارة متكاملة للمدارس</b>، <b>أدوات تعلم للطلاب</b>، و<b>موارد للمعلمين</b>.",
+                "tags": [
+                  "التعليم",
+                  "إدارة المدارس",
+                  "التعلم الإلكتروني",
+                  "JavaScript",
+                  "Tailwind CSS",
+                  "Django"
+                ]
+              },
+              "tr": {
+                "title": "Horizon Akademisi",
+                "text": "Modern ve interaktif bir eğitim platformu, <b>JavaScript</b>, <b>Tailwind CSS</b> ve <b>Django</b> ile geliştirilmiştir. <b>Okul yönetimi</b>, <b>öğrenci öğrenme araçları</b> ve <b>öğretmen kaynakları</b> sunar.",
+                "tags": [
+                  "Eğitim",
+                  "Okul Yönetimi",
+                  "E-öğrenme",
+                  "JavaScript",
+                  "Tailwind CSS",
+                  "Django"
+                ]
+              }
+            }
+          },
+          {
+            "categoryId": "websites",
+            "icon": {
+              "img": "images/screenshot/masterbook/logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-solid fa-globe",
+                "href": "https://masterbook.tzuchitech.org/"
+              },
+              {
+                "faIcon": "fa-solid fa-globe",
+                "href": "https://masterbook.tzuchitech.org/page30 "
+              }
+            ],
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/masterbook/1.png",
+                  "images/screenshot/masterbook/2.png",
+                  "images/screenshot/masterbook/3.png",
+                  "images/screenshot/masterbook/4.png"
+                ]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "Masterbook - Interactive Children's Platform",
+                "text": "Masterbook is an interactive and educational platform developed with <b>React</b> and <b>Tailwind CSS</b>. It offers a rich collection of <b>videos</b>, <b>stories</b>, and <b>illustrations</b> designed for children. This platform is the digital version of the Masterbook published by the Tzu Chi Taiwan Association.",
+                "tags": [
+                  "Children's Education",
+                  "Interactive Learning",
+                  "React",
+                  "Tailwind CSS",
+                  "Educational Videos",
+                  "Storytelling"
+                ]
+              },
+              "ar": {
+                "title": "ماستر بوك - منصة تعليمية تفاعلية للأطفال",
+                "text": "ماستر بوك هو منصة تعليمية تفاعلية تم تطويرها باستخدام <b>React</b> و <b>Tailwind CSS</b>. تحتوي المنصة على مجموعة غنية من <b>الفيديوهات</b>، <b>القصص</b>، و <b>الرسومات التوضيحية</b> المصممة خصيصًا للأطفال. هذه المنصة هي النسخة الرقمية لكتاب ماستر الذي نشرته جمعية تسجي التايوانية.",
+                "tags": [
+                  "تعليم الأطفال",
+                  "التعلم التفاعلي",
+                  "React",
+                  "Tailwind CSS",
+                  "فيديوهات تعليمية",
+                  "سرد القصص"
+                ]
+              },
+              "tr": {
+                "title": "Masterbook - Etkileşimli Çocuk Platformu",
+                "text": "Masterbook, <b>React</b> ve <b>Tailwind CSS</b> ile geliştirilen etkileşimli ve eğitici bir platformdur. Çocuklar için <b>videolar</b>, <b>hikayeler</b> ve <b>çizimler</b> içeren zengin bir koleksiyon sunar. Bu platform, Tzu Chi Tayvan Derneği tarafından yayınlanan Masterbook'un dijital versiyonudur.",
+                "tags": [
+                  "Çocuk Eğitimi",
+                  "Etkileşimli Öğrenme",
+                  "React",
+                  "Tailwind CSS",
+                  "Eğitici Videolar",
+                  "Hikaye Anlatımı"
+                ]
+              }
+            }
+          },
+  
+          {
+            "categoryId": "websites",
+            "icon": {
+              "img": "images/screenshot/Taskly/logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/musaalahmed1/Taskly"
+              }
+            ],
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/Taskly/1.png",
+                  "images/screenshot/Taskly/2.png",
+                  "images/screenshot/Taskly/3.png",
+                  "images/screenshot/Taskly/4.png",
+                  "images/screenshot/Taskly/5.png",
+                  "images/screenshot/Taskly/6.png",
+                  "images/screenshot/Taskly/7.png",
+                  "images/screenshot/Taskly/8.png",
+                  "images/screenshot/Taskly/9.png",
+                  "images/screenshot/Taskly/10.png"
+                ]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "Taskly - Task Management System",
+                "text": "Taskly is a powerful and intuitive task management system built with <b>React</b> for the frontend and <b>Django</b> with a <b>REST API</b> for the backend. It helps teams and individuals organize their work, track progress, and collaborate efficiently in real time.",
+                "tags": [
+                  "Task Management",
+                  "React",
+                  "Django",
+                  "API",
+                  "Productivity"
+                ]
+              },
+              "ar": {
+                "title": "تاسكلي - نظام إدارة المهام",
+                "text": "تاسكلي هو نظام قوي وسهل الاستخدام لإدارة المهام، تم تطويره باستخدام <b>React</b> للواجهة الأمامية و<b>Django</b> مع <b>REST API</b> للواجهة الخلفية. يساعد الأفراد والفرق على تنظيم العمل، تتبع التقدم، والتعاون بكفاءة في الوقت الفعلي.",
+                "tags": ["إدارة المهام", "React", "Django", "API", "الإنتاجية"]
+              },
+              "tr": {
+                "title": "Taskly - Görev Yönetim Sistemi",
+                "text": "Taskly, <b>React</b> ile geliştirilen ön yüzü ve <b>Django</b> ile <b>REST API</b> destekli arka ucu ile güçlü ve sezgisel bir görev yönetim sistemidir. Ekiplerin ve bireylerin işlerini düzenlemelerine, ilerlemeyi takip etmelerine ve gerçek zamanlı olarak verimli bir şekilde iş birliği yapmalarına yardımcı olur.",
+                "tags": ["Görev Yönetimi", "React", "Django", "API", "Verimlilik"]
+              }
+            }
+          },
+          {
+            "categoryId": "websites",
+            "icon": {
+              "img": "images/screenshot/Website-template-for-a-programming/logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/musaalahmed1/Website-template-for-a-programming"
+              },
+              {
+                "faIcon": "fa-solid fa-globe",
+                "href": "https://musaalahmed1.github.io/Website-template-for-a-programming/"
+              }
+            ],
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/Website-template-for-a-programming/1.png",
+                  "images/screenshot/Website-template-for-a-programming/2.png",
+                  "images/screenshot/Website-template-for-a-programming/3.png",
+                  "images/screenshot/Website-template-for-a-programming/4.png",
+                  "images/screenshot/Website-template-for-a-programming/5.png",
+                  "images/screenshot/Website-template-for-a-programming/6.png",
+                  "images/screenshot/Website-template-for-a-programming/7.png"
+                ]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "Website Template for a Programming Project",
+                "text": "A modern and responsive website template designed for programming-related websites. Built with <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, it offers a sleek and professional interface for developers, tech blogs, coding bootcamps, and programming communities.",
+                "tags": [
+                  "Website Template",
+                  "Programming",
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                  "Responsive Design"
+                ]
+              },
+              "ar": {
+                "title": "قالب موقع لمشاريع البرمجة",
+                "text": "قالب موقع حديث ومتجاوب مصمم للمواقع المتعلقة بالبرمجة. تم بناؤه باستخدام <b>HTML</b>، <b>CSS</b>، و<b>JavaScript</b>، ويوفر واجهة احترافية وأنيقة للمطورين، المدونات التقنية، معسكرات البرمجة، ومجتمعات البرمجة.",
+                "tags": [
+                  "قالب موقع",
+                  "البرمجة",
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                  "تصميم متجاوب"
+                ]
+              },
+              "tr": {
+                "title": "Programlama Projeleri İçin Web Sitesi Şablonu",
+                "text": "Programlama ile ilgili web siteleri için modern ve duyarlı bir şablon. <b>HTML</b>, <b>CSS</b> ve <b>JavaScript</b> ile oluşturulmuş olup, geliştiriciler, teknoloji blogları, kodlama eğitimleri ve programlama toplulukları için şık ve profesyonel bir arayüz sunar.",
+                "tags": [
+                  "Web Sitesi Şablonu",
+                  "Programlama",
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                  "Duyarlı Tasarım"
+                ]
+              }
+            }
+          },
+          {
+            "categoryId": "websites",
+            "icon": {
+              "img": "images/screenshot/car-rental-Website/logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/musaalahmed1/car-rental-Website-template"
+              },
+              {
+                "faIcon": "fa-solid fa-globe",
+                "href": "https://musaalahmed1.github.io/Car-Rental-Website/"
+              }
+            ],
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/car-rental-Website/1.png",
+                  "images/screenshot/car-rental-Website/2.png",
+                  "images/screenshot/car-rental-Website/3.png",
+                  "images/screenshot/car-rental-Website/4.png",
+                  "images/screenshot/car-rental-Website/5.png"
+                ]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "Car Rental Website",
+                "text": "A professional and modern car rental website built with <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b>, and <b>MySQL</b>. This system allows users to browse available cars, book rentals, and manage reservations seamlessly with a robust database management system.",
+                "tags": [
+                  "Car Rental",
+                  "PHP",
+                  "MySQL",
+                  "CSS",
+                  "JavaScript",
+  
+                  "Responsive Design"
+                ]
+              },
+              "ar": {
+                "title": "موقع تأجير السيارات",
+                "text": "موقع إلكتروني احترافي وحديث لتأجير السيارات، تم بناؤه باستخدام <b>HTML</b>، <b>CSS</b>، <b>JavaScript</b>، <b>PHP</b> و<b>MySQL</b>. يتيح هذا النظام للمستخدمين تصفح السيارات المتاحة، حجز الإيجارات، وإدارة الحجوزات بسلاسة من خلال نظام قاعدة بيانات قوي.",
+                "tags": [
+                  "تأجير السيارات",
+                  "PHP",
+                  "MySQL",
+                  "CSS",
+                  "JavaScript",
+  
+                  "تصميم متجاوب"
+                ]
+              },
+              "tr": {
+                "title": "Araç Kiralama Web Sitesi",
+                "text": "HTML, CSS, JavaScript, PHP ve MySQL kullanılarak geliştirilen profesyonel ve modern bir araç kiralama web sitesi. Kullanıcılar, mevcut araçları görüntüleyebilir, kiralama işlemlerini gerçekleştirebilir ve güçlü bir veritabanı yönetim sistemi ile rezervasyonları sorunsuz bir şekilde yönetebilir.",
+                "tags": [
+                  "Araç Kiralama",
+                  "PHP",
+                  "MySQL",
+                  "CSS",
+                  "JavaScript",
+  
+                  "Duyarlı Tasarım"
+                ]
+              }
+            }
+          },
+  
+          {
+            "categoryId": "utilities",
+            "icon": {
+              "img": "images/screenshot/QuickFile-Search/Logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/musaalahmed1/QuickFile-Search"
+              }
+            ],
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/QuickFile-Search/1.png",
+                  "images/screenshot/QuickFile-Search/2.png",
+                  "images/screenshot/QuickFile-Search/3.png",
+                  "images/screenshot/QuickFile-Search/4.png",
+                  "images/screenshot/QuickFile-Search/5.png"
+                ]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "QuickFile Search",
+                "text": "A lightweight and efficient file search tool built using <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>. It enables users to search and filter files quickly in a simple interface.",
+                "tags": [
+                  "File Search",
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "Frontend Application"
+                ]
+              },
+              "ar": {
+                "title": "البحث السريع عن الملفات",
+                "text": "أداة بحث خفيفة وسريعة عن الملفات تم تطويرها باستخدام <b>JavaScript</b>، <b>HTML</b>، و<b>CSS</b>. تمكن المستخدمين من البحث عن الملفات وتصفيتها بسرعة بواجهة بسيطة.",
+                "tags": [
+                  "البحث عن الملفات",
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "تطبيق الواجهة الأمامية"
+                ]
+              },
+              "tr": {
+                "title": "QuickFile Arama",
+                "text": "<b>JavaScript</b>, <b>HTML</b> ve <b>CSS</b> ile geliştirilen hafif ve verimli bir dosya arama aracı. Kullanıcıların basit bir arayüzde dosyaları hızla aramasını ve filtrelemesini sağlar.",
+                "tags": [
+                  "Dosya Arama",
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "Ön Uç Uygulaması"
+                ]
+              }
+            }
+          },
+  
+          {
+            "categoryId": "other",
+            "icon": {
+              "img": "images/screenshot/Hospital_Management/logo.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              {
+                "faIcon": "fa-brands fa-github",
+                "href": "https://github.com/musaalahmed1/Hospital_Management/tree/main"
+              }
+            ],
+            "media": {
+              "screenshots": {
+                "aspectRatio": "16:9",
+                "images": [
+                  "images/screenshot/Hospital_Management/1.png",
+                  "images/screenshot/Hospital_Management/2.png",
+                  "images/screenshot/Hospital_Management/3.png",
+                  "images/screenshot/Hospital_Management/4.png"
+                ]
+              }
+            },
+            "locales": {
+              "en": {
+                "title": "Hospital Management System",
+                "text": "A comprehensive hospital automation system built with <b>C#</b>, <b>.NET Framework</b>, and <b>SQL Server</b>. It provides <b>patient management</b>, <b>appointment scheduling</b>, and <b>hospital resource management</b>.",
+                "tags": [
+                  "Healthcare",
+                  "Hospital Management",
+                  "C#",
+                  ".NET",
+                  "SQL Server"
+                ]
+              },
+              "ar": {
+                "title": "نظام إدارة المستشفيات",
+                "text": "نظام أتمتة شامل للمستشفيات تم تطويره باستخدام <b>C#</b>، <b>.NET Framework</b> و<b>SQL Server</b>. يوفر <b>إدارة المرضى</b>، <b>جدولة المواعيد</b>، و<b>إدارة موارد المستشفى</b>.",
+                "tags": [
+                  "الرعاية الصحية",
+                  "إدارة المستشفيات",
+                  "C#",
+                  ".NET",
+                  "SQL Server"
+                ]
+              },
+              "tr": {
+                "title": "Hastane Yönetim Sistemi",
+                "text": "<b>C#</b>, <b>.NET Framework</b> ve <b>SQL Server</b> ile geliştirilen kapsamlı bir hastane otomasyon sistemi. <b>Hasta yönetimi</b>, <b>randevu planlama</b> ve <b>hastane kaynak yönetimi</b> sağlar.",
+                "tags": ["Sağlık", "Hastane Yönetimi", "C#", ".NET", "SQL Server"]
+              }
+            }
+          }
+        ]
+      }
     ]
-}
+  }
+  

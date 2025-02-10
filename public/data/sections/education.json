@@ -1,190 +1,398 @@
 {
     "locales": {
-        "en": {
-            "title": "Education",
-            "title_long_prefix": "This is my",
-            "title_long": "**Educational** Background"
-        },
-
-        "es": {
-            "title": "Educación",
-            "title_long_prefix": "Esta es mi",
-            "title_long": "**Formación** Educativa"
-        },
-
-        "fr": {
-            "title": "Éducation",
-            "title_long_prefix": "C'est mon",
-            "title_long": "**Contexte** Éducatif"
-        },
-
-        "ko": {
-            "title": "교육",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**교육적** 배경"
-        }
+      "en": {
+        "title": "Education",
+        "title_long_prefix": "This is my",
+        "title_long": "**Educational** Background"
+      },
+      "ar": {
+        "title": "التعليم",
+        "title_long_prefix": "هذا هو",
+        "title_long": "**الخلفية** التعليمية"
+      },
+      "tr": {
+        "title": "Eğitim",
+        "title_long_prefix": "Bu benim",
+        "title_long": "**Eğitim** Geçmişim"
+      }
     },
-
+  
     "articles": [
-        {
-            "id": "academic",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "01/01/2015",
-                        "end": "12/01/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Bachelor** in Computer Science",
-                            "info": "MIT",
-                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
-                            "tags": []
-                        },
-                        "es": {
-                            "title": "**Licenciatura** en Ciencias de la Computación",
-                            "info": "MIT",
-                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "**Licence** en Informatique",
-                            "info": "MIT",
-                            "text": "Obtenu une licence en Informatique, avec un accent sur les algorithmes, les structures de données, l'ingénierie logicielle et le développement web. Acquis une expérience pratique à travers divers projets de programmation et camps de formation.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**학사** 컴퓨터 과학",
-                            "info": "MIT",
-                            "text": "알고리즘, 데이터 구조, 소프트웨어 공학 및 웹 개발에 중점을 둔 컴퓨터 과학 학사 학위를 취득했습니다. 다양한 프로그래밍 프로젝트와 부트캠프를 통해 실무 경험을 쌓았습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/pictures/place-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "01/01/2014",
-                        "end": "06/01/2014"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP Development **Nanodegree**",
-                            "info": "Udacity",
-                            "text": "Completed an intensive Nanodegree program focused on PHP development, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern PHP practices.",
-                            "tags": ["PHP 8+", "Laravel", "MongoDB"]
-                        },
-                        "es": {
-                            "title": "Nanogrado en **Desarrollo PHP**",
-                            "info": "Udacity",
-                            "text": "Completé un programa intensivo de Nanogrado centrado en el desarrollo de PHP, cubriendo habilidades esenciales como la programación backend, la gestión de bases de datos y el despliegue de aplicaciones web. Este curso proporcionó una base sólida en las prácticas modernas de PHP.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Nanodiplôme en **Développement PHP**",
-                            "info": "Udacity",
-                            "text": "Terminé un programme intensif de Nanodiplôme axé sur le développement PHP, couvrant des compétences essentielles telles que la programmation backend, la gestion de bases de données et le déploiement d'applications web. Ce cours a fourni une base solide dans les pratiques modernes de PHP.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "PHP 개발 **나노디그리**",
-                            "info": "Udacity",
-                            "text": "PHP 개발에 중점을 둔 집중 나노디그리 프로그램을 완료하여 백엔드 프로그래밍, 데이터베이스 관리 및 웹 애플리케이션 배포와 같은 필수 기술을 배웠습니다. 이 과정은 현대 PHP 실무에 대한 탄탄한 기초를 제공했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/pictures/place-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "09/01/2020",
-                        "end": "06/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Master's** in Artificial Intelligence",
-                            "info": "University of Paris",
-                            "text": "<p>Completed a comprehensive Master's program focused on cutting-edge AI topics, including:</p> <ul><li>Machine Learning</li><li>Natural Language Processing (NLP)</li><li>Neural Networks</li></ul> <p class='mt-3'>Applied research and theory to develop practical AI-driven solutions, combining academic excellence with real-world innovation.</p>",
-                            "tags": []
-                        },
-                        "es": {
-                            "title": "**Máster** en Inteligencia Artificial",
-                            "info": "Universidad de París",
-                            "text": "<p>Completé un programa de máster integral centrado en temas de IA de vanguardia, incluyendo:</p> <ul><li>Aprendizaje Automático</li><li>Procesamiento del Lenguaje Natural (PLN)</li><li>Redes Neuronales</li></ul> <p class='mt-3'>Apliqué investigación y teoría para desarrollar soluciones prácticas impulsadas por IA, combinando la excelencia académica con la innovación en el mundo real.</p>",
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "**Master** en Intelligence Artificielle",
-                            "info": "Université de Paris",
-                            "text": "<p>J'ai terminé un programme de Master complet axé sur les sujets de pointe en IA, y compris:</p> <ul><li>Apprentissage Automatique</li><li>Traitement du Langage Naturel (TLN)</li><li>Réseaux Neuronaux</li></ul> <p class='mt-3'>J'ai appliqué la recherche et la théorie pour développer des solutions IA pratiques, alliant excellence académique et innovation réelle.</p>",
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "인공지능 **석사**",
-                            "info": "파리 대학교",
-                            "text": "<p>최첨단 인공지능 주제에 중점을 둔 석사 과정을 완료했습니다. 다룬 주제는 다음과 같습니다:</p> <ul><li>머신러닝</li><li>자연어 처리 (NLP)</li><li>신경망</li></ul> <p class='mt-3'>연구와 이론을 실제 AI 솔루션 개발에 적용하여 학문적 우수성과 실질적 혁신을 결합했습니다.</p>",
-                            "tags": []
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/pictures/place-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "09/01/2022",
-                        "end": "06/01/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**PhD** in Computer Science",
-                            "info": "Harvard University",
-                            "text": "<p>Currently pursuing a PhD with a focus on deep learning and its real-world applications, particularly in:</p> <ul><li>Computer Vision</li><li>Innovative AI research</li><li>Developing novel algorithms for image recognition</li></ul> <p class='mt-3'>Engaged in cutting-edge research and contributing to AI advancement through publications in top-tier conferences.</p>",
-                            "tags": ["Deep Learning", "Computer Vision", "AI Research", "Algorithms"]
-                        },
-                        "es": {
-                            "title": "**Doctorado** en Ciencias de la Computación",
-                            "info": "Universidad de Harvard",
-                            "text": "<p>Cursando un doctorado con enfoque en aprendizaje profundo y sus aplicaciones en el mundo real, específicamente en:</p> <ul><li>Visión por Computadora</li><li>Investigación innovadora en IA</li><li>Desarrollo de nuevos algoritmos para el reconocimiento de imágenes</li></ul> <p class='mt-3'>Involucrado en investigaciones de vanguardia y contribuyendo al avance de la IA a través de publicaciones en conferencias de primer nivel.</p>",
-                            "tags": ["Aprendizaje Profundo", "Visión por Computadora", "Investigación IA", "Algoritmos"]
-                        },
-                        "fr": {
-                            "title": "**Doctorat** en Informatique",
-                            "info": "Université de Harvard",
-                            "text": "<p>En cours de doctorat avec un accent sur l'apprentissage profond et ses applications pratiques, notamment dans:</p> <ul><li>Vision par Ordinateur</li><li>Recherche IA innovante</li><li>Développement de nouveaux algorithmes de reconnaissance d'images</li></ul> <p class='mt-3'>Impliqué dans des recherches de pointe et contribuant à l'avancement de l'IA par des publications dans des conférences de renom.</p>",
-                            "tags": ["Apprentissage Profond", "Vision par Ordinateur", "Recherche IA", "Algorithmes"]
-                        },
-                        "ko": {
-                            "title": "컴퓨터 과학 **박사**",
-                            "info": "하버드 대학교",
-                            "text": "<p>딥러닝과 그 실제 응용 분야에 중점을 둔 박사 과정을 수행 중입니다. 특히 다음에 초점을 맞추고 있습니다:</p> <ul><li>컴퓨터 비전</li><li>혁신적인 AI 연구</li><li>이미지 인식을 위한 새로운 알고리즘 개발</li></ul> <p class='mt-3'>최첨단 연구에 참여하고, 유명 학회에서 발표하여 AI 기술 발전에 기여하고 있습니다.</p>",
-                            "tags": ["딥러닝", "컴퓨터 비전", "AI 연구", "알고리즘"]
-                        }
-                    }
-                }
-            ]
-        }
+      {
+        "id": "academic",
+        "component": "ArticleTimeline",
+        "config": {},
+        "locales": {},
+  
+        "items": [
+          {
+            "icon": {
+              "img": "images/pictures/edu/1.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "09/01/2023",
+              "end": "continuous"
+            },
+            "locales": {
+              "en": {
+                "title": "Software Engineering",
+                "info": "Istanbul Topkapi University",
+                "text": "Focused on software engineering, collaborating with developers to integrate innovative solutions and enhance software technology.",
+                "tags": ["Software Development", "Collaboration", "Innovation"]
+              },
+              "ar": {
+                "title": "هندسة البرمجيات",
+                "info": "جامعة إسطنبول توبكابي",
+                "text": "ركزت على هندسة البرمجيات، وتعاونت مع المطورين لدمج حلول مبتكرة وتعزيز تكنولوجيا البرمجيات.",
+                "tags": ["تطوير البرمجيات", "التعاون", "الابتكار"]
+              }
+            }
+          },
+  
+          {
+            "icon": {
+              "img": "images/pictures/edu/2.png",
+  
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "07/01/2021",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "Computer Engineering",
+                "info": "Istanbul Arel University",
+                "text": "Gained strong technical skills and a deep understanding of concepts such as data analysis, machine learning, and database management. After two years, I shifted my focus to software engineering to combine creativity and technology for innovative solutions.",
+                "tags": ["Data Analysis", "Machine Learning", "Databases"]
+              },
+              "ar": {
+                "title": "هندسة الحاسوب",
+                "info": "جامعة إسطنبول أريل",
+                "text": "اكتسبت مهارات تقنية قوية وفهمًا عميقًا لمفاهيم مثل تحليل البيانات، تعلم الآلة، وإدارة قواعد البيانات. بعد عامين، وجهت تركيزي نحو هندسة البرمجيات لدمج الإبداع والتكنولوجيا في حلول مبتكرة.",
+                "tags": ["تحليل البيانات", "تعلم الآلة", "قواعد البيانات"]
+              },
+              "tr": {
+                "title": "Bilgisayar Mühendisliği",
+                "info": "İstanbul Arel Üniversitesi",
+                "text": "Veri analizi, makine öğrenimi ve veritabanı yönetimi gibi konular hakkında derin teknik bilgiler edindim. İki yılın ardından, yazılım mühendisliğine yönelerek yaratıcılığı teknolojiyle birleştirdim.",
+                "tags": ["Veri Analizi", "Makine Öğrenimi", "Veritabanları"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/8.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "11/01/2019",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "Mobile Maintenance Training (Software and Hardware)",
+                "info": "ITC Information Technology Center",
+                "text": "Completed a comprehensive course in mobile phone maintenance, covering software and hardware repairs, flashing phones, and IMEI changes. Graduated second in the training course with a 93% grade.",
+                "tags": ["Mobile Repair", "IMEI Change", "Jailbreaking"]
+              },
+              "ar": {
+                "title": "تدريب صيانة الهواتف المحمولة (السوفت وير والهاردوير)",
+                "info": "مركز تكنولوجيا المعلومات ITC",
+                "text": "أكملت دورة تدريبية شاملة في صيانة الهواتف المحمولة، شملت إصلاحات السوفت وير والهاردوير، تفليش الهواتف، وتغيير IMEI. حصلت على المركز الثاني في الدورة التدريبية بمعدل 93%.",
+                "tags": ["صيانة الهواتف", "تغيير IMEI", "Jailbreaking"]
+              },
+              "tr": {
+                "title": "Mobil Bakım Eğitimi (Yazılım ve Donanım)",
+                "info": "ITC Bilgi Teknolojileri Merkezi",
+                "text": "Mobil cihaz bakımında kapsamlı bir kurs tamamladım, yazılım ve donanım onarımlarını, telefonlara yazılım yüklemeyi ve IMEI değişikliklerini öğrendim. Kursu %93 başarı ile tamamlayarak ikinci sırada mezun oldum.",
+                "tags": ["Mobil Onarım", "IMEI Değiştirme", "Jailbreaking"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/4.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "12/08/2024",
+              "end":  null
+            },
+            "locales": {
+              "en": {
+                "title": "React - The Complete Guide 2025 (incl. Next.js, Redux)",
+                "info": "Udemy",
+                "text": "Completed an extensive React.js course covering React fundamentals, Hooks, Redux, Next.js, authentication, state management, and best practices for modern web development.",
+                "tags": ["React", "Redux", "Next.js", "Hooks", "State Management"]
+              },
+              "ar": {
+                "title": "React - الدليل الشامل 2025 (بما في ذلك Next.js وRedux)",
+                "info": "Udemy",
+                "text": "أكملت دورة شاملة في React.js تغطي أساسيات React، وHooks، وRedux، وNext.js، والمصادقة، وإدارة الحالة، وأفضل الممارسات لتطوير الويب الحديث.",
+                "tags": ["React", "Redux", "Next.js", "Hooks", "إدارة الحالة"]
+              },
+              "tr": {
+                "title": "React - Tam Kapsamlı Kılavuz 2025 (Next.js, Redux dahil)",
+                "info": "Udemy",
+                "text": "React.js'in temelleri, Hooks, Redux, Next.js, kimlik doğrulama, durum yönetimi ve modern web geliştirme için en iyi uygulamaları içeren kapsamlı bir kurs tamamladım.",
+                "tags": ["React", "Redux", "Next.js", "Hooks", "Durum Yönetimi"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/9.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "07/01/2021",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "Turkish Language Proficiency Certificate",
+                "info": "İnönü University",
+                "text": "Completed an advanced Turkish language course, developing skills in reading, writing, and speaking. Gained deep insights into Turkish culture and effective communication with native speakers.",
+                "tags": ["Turkish", "Advanced Vocabulary", "Communication"]
+              },
+              "ar": {
+                "title": "شهادة إتقان اللغة التركية",
+                "info": "جامعة إينونو",
+                "text": "أكملت دورة متقدمة في اللغة التركية، طورت من خلالها مهارات القراءة، الكتابة، والتحدث. اكتسبت فهمًا عميقًا للثقافة التركية وقدرة على التواصل الفعّال مع المتحدثين الأصليين.",
+                "tags": ["اللغة التركية", "المفردات المتقدمة", "التواصل"]
+              },
+              "tr": {
+                "title": "Türkçe Dil Yeterlilik Sertifikası",
+                "info": "İnönü Üniversitesi",
+                "text": "İleri düzeyde Türkçe dil eğitimi tamamladım, okuma, yazma ve konuşma becerilerini geliştirdim. Türk kültürü hakkında derin bir anlayış kazandım ve ana dili Türkçe olanlarla etkili iletişim kurabildim.",
+                "tags": ["Türkçe", "İleri Düzey Kelime Bilgisi", "İletişim"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/3.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "07/01/2021",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "Certificate of Appreciation - Media Office",
+                "info": "Tzu Chi İyilik Vakfı",
+                "text": "Received a certificate of appreciation for commitment and dedication to voluntary work at the Media Office of Tzu Chi İyilik Vakfı. During this period, I developed expertise in Adobe editing tools, working on video production, image design, and creative content editing.",
+                "tags": [
+                  "Media",
+                  "Adobe Premiere",
+                  "Adobe Photoshop",
+                  "Video Editing",
+                  "Graphic Design"
+                ]
+              },
+              "ar": {
+                "title": "شهادة تقدير - المكتب الإعلامي",
+                "info": "مؤسسة تسوتشي الخيرية",
+                "text": "حصلت على شهادة تقدير لالتزامي وتفانيي في العمل التطوعي بالمكتب الإعلامي لمؤسسة تسوتشي الخيرية. خلال هذه الفترة، طورت مهاراتي في برامج أدوبي للمونتاج، وعملت على إنتاج الفيديوهات، تصميم الصور، وتحرير المحتوى الإبداعي.",
+                "tags": [
+                  "الإعلام",
+                  "Adobe Premiere",
+                  "Adobe Photoshop",
+                  "مونتاج الفيديو",
+                  "تصميم الجرافيك"
+                ]
+              },
+              "tr": {
+                "title": "Takdir Belgesi - Medya Ofisi",
+                "info": "Tzu Chi İyilik Vakfı",
+                "text": "Tzu Chi İyilik Vakfı'nın Medya Ofisinde gönüllü çalışmalarımdan dolayı takdir belgesi aldım. Bu süreçte, Adobe düzenleme araçlarında uzmanlık geliştirdim ve video prodüksiyonu, görsel tasarım ve yaratıcı içerik düzenleme alanlarında çalıştım.",
+                "tags": [
+                  "Medya",
+                  "Adobe Premiere",
+                  "Adobe Photoshop",
+                  "Video Düzenleme",
+                  "Grafik Tasarım"
+                ]
+              }
+            }
+          },
+  
+          {
+            "icon": {
+              "img": "images/pictures/edu/6.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "07/05/2023",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "Clean Code Course",
+                "info": "CSI API (ETABS) - YouTube",
+                "text": "Completed an educational course on writing clean and maintainable code. Topics included code quality, meaningful naming, functions, comments, exception handling, unit testing, threading, and refactoring.",
+                "tags": [
+                  "Clean Code",
+                  "Refactoring",
+                  "Unit Testing",
+                  "Code Quality"
+                ]
+              },
+              "ar": {
+                "title": "دورة كتابة شِفرة نظيفة",
+                "info": "CSI API (ETABS) - يوتيوب",
+                "text": "أكملت دورة تعليمية حول كيفية كتابة شِفرة نظيفة وسهلة الصيانة. تضمنت الدورة موضوعات مثل جودة الكود، تسمية المتغيرات بوضوح، الوظائف، التعليقات، التعامل مع الاستثناءات، اختبار الوحدات، تعدد الخيوط، وإعادة هيكلة الكود.",
+                "tags": [
+                  "الشِفرة النظيفة",
+                  "إعادة هيكلة الكود",
+                  "اختبار الوحدات",
+                  "جودة الكود"
+                ]
+              },
+              "tr": {
+                "title": "Clean Code Kursu",
+                "info": "CSI API (ETABS) - YouTube",
+                "text": "Temiz ve bakımı kolay kod yazma üzerine eğitim kursunu tamamladım. Kurs, kod kalitesi, anlamlı isimlendirme, fonksiyonlar, yorumlar, hata yönetimi, birim testleri, çoklu iş parçacığı kullanımı ve kod yeniden yapılandırma gibi konuları kapsıyordu.",
+                "tags": [
+                  "Temiz Kod",
+                  "Kod Yeniden Düzenleme",
+                  "Birim Testleri",
+                  "Kod Kalitesi"
+                ]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/2.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "12/20/2022",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "E-Commerce Summit Participation Certificate",
+                "info": "Istanbul Arel University - Career Center",
+                "text": "Participated in the 'From Zero to E-Commerce Summit' organized by the Career Planning, Application, and Research Center at Istanbul Arel University. The event focused on e-commerce fundamentals and business strategies.",
+                "tags": [
+                  "E-Commerce",
+                  "Business Strategies",
+                  "Career Development"
+                ]
+              },
+              "ar": {
+                "title": "شهادة حضور قمة التجارة الإلكترونية",
+                "info": "جامعة إسطنبول أريل - مركز التوظيف",
+                "text": "شاركت في قمة 'من الصفر إلى التجارة الإلكترونية' التي نظمها مركز التخطيط الوظيفي والتطبيق والبحث في جامعة إسطنبول أريل. ركز الحدث على أساسيات التجارة الإلكترونية واستراتيجيات الأعمال.",
+                "tags": [
+                  "التجارة الإلكترونية",
+                  "استراتيجيات الأعمال",
+                  "تطوير المسار الوظيفي"
+                ]
+              },
+              "tr": {
+                "title": "E-Ticaret Zirvesi Katılım Belgesi",
+                "info": "İstanbul Arel Üniversitesi - Kariyer Merkezi",
+                "text": "İstanbul Arel Üniversitesi Kariyer Planlama, Uygulama ve Araştırma Merkezi tarafından düzenlenen 'Sıfırdan Zirveye E-Ticaret' etkinliğine katıldım. Etkinlik, e-ticaretin temelleri ve iş stratejileri üzerine odaklandı.",
+                "tags": ["E-Ticaret", "İş Stratejileri", "Kariyer Gelişimi"]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/7.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "MM/2020",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "Mental Health Support Program",
+                "info": "Turkish Red Crescent - Community Center",
+                "text": "Completed a 3-month mental health support program at the Turkish Red Crescent's Community Center. Assisted in psychological counseling, psychotherapy, and awareness sessions focused on mental well-being.",
+                "tags": [
+                  "Mental Health",
+                  "Psychotherapy",
+                  "Community Support",
+                  "Counseling"
+                ]
+              },
+              "ar": {
+                "title": "برنامج دعم الصحة النفسية",
+                "info": "الهلال الأحمر التركي - مركز المجتمع",
+                "text": "أكملت برنامج دعم الصحة النفسية لمدة 3 أشهر في مركز المجتمع التابع للهلال الأحمر التركي. شاركت في تقديم الاستشارات النفسية، العلاج النفسي، وجلسات التوعية بالصحة النفسية.",
+                "tags": [
+                  "الصحة النفسية",
+                  "العلاج النفسي",
+                  "دعم المجتمع",
+                  "الاستشارات النفسية"
+                ]
+              },
+              "tr": {
+                "title": "Ruh Sağlığı Destek Programı",
+                "info": "Türk Kızılay - Toplum Merkezi",
+                "text": "Türk Kızılayı Toplum Merkezi'nde 3 ay süren ruh sağlığı destek programını tamamladım. Psikolojik danışmanlık, psikoterapi ve ruh sağlığı farkındalık oturumlarında destek sağladım.",
+                "tags": [
+                  "Ruh Sağlığı",
+                  "Psikoterapi",
+                  "Toplum Desteği",
+                  "Danışmanlık"
+                ]
+              }
+            }
+          },
+          {
+            "icon": {
+              "img": "images/pictures/edu/5.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+              "start": "02/01/2022",
+              "end": null
+            },
+            "locales": {
+              "en": {
+                "title": "First Aid Course",
+                "info": "The Rice Foundation",
+                "text": "Completed a first aid training covering principles of first aid, wound care, CPR, and emergency response techniques.",
+                "tags": ["First Aid", "CPR", "Emergency Response"]
+              },
+              "ar": {
+                "title": "دورة الإسعافات الأولية",
+                "info": "مؤسسة رايس",
+                "text": "أكملت تدريبًا على الإسعافات الأولية يشمل مبادئ الإسعافات، العناية بالجروح، الإنعاش القلبي الرئوي، وتقنيات الاستجابة للطوارئ.",
+                "tags": [
+                  "الإسعافات الأولية",
+                  "الإنعاش القلبي",
+                  "الاستجابة للطوارئ"
+                ]
+              },
+              "tr": {
+                "title": "İlk Yardım Kursu",
+                "info": "The Rice Foundation",
+                "text": "İlk yardım eğitimi tamamladım, ilk yardım ilkeleri, yara bakımı, CPR ve acil durum müdahale tekniklerini öğrendim.",
+                "tags": ["İlk Yardım", "CPR", "Acil Durum Müdahalesi"]
+              }
+            }
+          }
+        ]
+      }
     ]
-}
+  }
+  
